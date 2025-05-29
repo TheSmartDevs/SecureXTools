@@ -1,0 +1,69 @@
+{
+  "name": "SecureXTools",
+  "description": "A fast and powerful Telegram bot with tools for user info, IP checking, proxy checking, screenshots, and media downloads from YouTube, Facebook, Instagram, Pinterest, Spotify, and TikTok.",
+  "repository": "https://github.com/TheSmartDevs/SecureXTools",
+  "keywords": ["telegram", "bot", "pyrogram", "python"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID obtained from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash obtained from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot Token obtained from @BotFather on Telegram",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Bot Username (e.g., @SecureXToolsBot)",
+      "required": true
+    },
+     "BOT_NAME": {
+      "description": "Bot Name (e.g., SecureXToolsBot)",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Telegram User ID of the bot owner",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection URL (e.g., mongodb://localhost:27017/securextools)",
+      "required": true
+    },
+    "UPDATE_CHANNEL_URL": {
+      "description": "URL of the Telegram channel for updates and support",
+      "value": "t.me/TheSmartDev"
+    },
+    "COMMAND_PREFIX": {
+      "description": "Command prefixes for bot commands (e.g., !, ., #, ,, /)",
+      "value": "!|.|#|,|/"
+    },
+    "MAX_VIDEO_SIZE": {
+      "description": "Maximum video file size in bytes",
+      "value": "2147483648"
+    },
+    "YT_COOKIES_PATH": {
+      "description": "Path to YouTube cookies file",
+      "value": "./cookies/ItsSmartToolBot.txt"
+    },
+    "VIDEO_RESOLUTION": {
+      "description": "Video resolution for YouTube downloads (e.g., 1280x720)",
+      "value": "1280x720"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "heroku-22",
+  "addons": []
+}

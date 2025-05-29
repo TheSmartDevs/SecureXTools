@@ -1,0 +1,24 @@
+start - Start SecureXTools Bot
+help - Get Help Menu & Commands
+info - Get User Info From Database
+id- Get Group Or Channel Info
+ip - Get Any Ip Information
+px - Check Proxy Any Type
+ss - Get SS Of Any Website
+fb - Download Facebook Video
+in - Download Insta Reel & Posts
+sp - Download Spotify Track
+song - Download Yt Music
+video - Download Yt Video 
+tt- Download TikTok Video
+pnt - Download Pinterest Video 
+settings - Change Bot All Vars [Admin]
+auth - Promote Sudo User  [Admin]
+unauth - Demote Sudo User  [Admin]
+gban - Ban User From Using Bot [Admin]
+gunban - Unban User From Using Bot [Admin]
+logs - Get Bot's Logs From Console [Admin]
+restart - Restart Bot And Freshly Start [Admin]
+speedtest - Get Bot Server Speed [Admin]
+send - Send Brodcast [Admin]
+stats - Get Statistics [Admin]

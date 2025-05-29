@@ -1,0 +1,13 @@
+pyrogram
+tgcrypto
+aiohttp
+requests
+asyncio
+telegraph
+pillow
+yt-dlp
+python-dateutil
+pymongo
+aiofiles
+python-dotenv
+moviepy
