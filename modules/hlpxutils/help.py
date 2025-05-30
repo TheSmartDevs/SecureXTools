@@ -94,15 +94,15 @@ def setup_help_handler(app):
                 "**/info** - **Get User Information.**\n"
                 "**/id** - **Get Group & Channel Information.**\n"
                 "**/ip** - **Get IP information.**\n"
-                "**/proxy** - **Http/Https Proxy Checker.**\n"
+                "**/px** - **Http/Https Proxy Checker.**\n"
                 "**/ss** - **Take Screenshot of Website.**\n"
                 "**/fb** - **Download Facebook video.**\n"
-                "**/insta** - **Download Instagram Photos, Reel Or Stories.**\n"
-                "**/sp Or Send Direct Url** - **Download Spotify Track/Album Or Playlist.**\n"
+                "**/in** - **Download Instagram Photos, Reel Or Stories.**\n"
+                "**/sp ** - **Download Spotify Track/Album Or Playlist.**\n"
                 "**/song** - **Download Music or Youtube as Mp3 Format.**\n"
                 "**/video** - **Download Youtube Video.**\n"
-                "**/tik** - **Download Tiktok Video.**\n"
-                "**/p** - **Download Pinterest Video.**"
+                "**/tt** - **Download Tiktok Video.**\n"
+                "**/pnt** - **Download Pinterest Video.**"
             )
             buttons = InlineKeyboardMarkup(
                 [
